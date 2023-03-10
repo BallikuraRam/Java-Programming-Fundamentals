@@ -19,7 +19,7 @@ public class Sort_Elements_in_Array_using_Built_in_Methods {
         System.out.println("sort array using sort Method");
         System.out.println(Arrays.toString(a));
 
-        //3. Reverse Desending Order
+        //3. Reverse Descending Order
         Integer a1[] = {2, 1, 3, 4, 8, 9, 7, 6};
         Arrays.sort(a1, Collections.reverseOrder());
         System.out.println("sort array using Non Primitive data type and reverse()");
