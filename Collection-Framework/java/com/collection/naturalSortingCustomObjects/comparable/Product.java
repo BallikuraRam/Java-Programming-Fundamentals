@@ -28,7 +28,7 @@ public class Product implements Comparable<Product> {
     // we can sort only one type of value only at a time
     @Override
     public int compareTo(Product o) {
-        // based on String type
+//         based on String type
 //        return this.productName.compareTo(o.productName);
 
         // based on int type
@@ -37,7 +37,9 @@ public class Product implements Comparable<Product> {
         // based on long type
 //        return (int) (this.rating - o.rating);
 
-        // based on double
+//        // based on double
         return (int) (this.customer_rating - o.customer_rating);
     }
+
+
 }

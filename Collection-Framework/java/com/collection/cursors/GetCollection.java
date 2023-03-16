@@ -23,7 +23,7 @@ public class GetCollection {
         }
 
         //2. Approach
-        System.out.println("===For Each  Loop===");
+        System.out.println("===For Each Loop===");
 
         for (Object object : list)
         {
@@ -31,7 +31,7 @@ public class GetCollection {
         }
 
         //3. iterator()
-        System.out.println("===Iterator forward direction===");
+        System.out.println("===IteratorImplementation forward direction===");
         Iterator iterator = list.iterator();
         while (iterator.hasNext())
         {
@@ -44,6 +44,11 @@ public class GetCollection {
         while (listIterator.hasNext())
         {
             System.out.println(listIterator.next());
+        }
+        System.out.println(" ");
+        while (listIterator.hasPrevious())
+        {
+            System.out.println(listIterator.previous());
         }
 
         //5. forEach() method Approach

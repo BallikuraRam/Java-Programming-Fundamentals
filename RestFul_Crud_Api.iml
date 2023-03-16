@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Collection-Framework/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaCodingInterviewPracticeQuestions/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Collection-Framework/java.util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MultiThreading/com.workshop" isTestSource="false" />
     </content>
   </component>
 </module>

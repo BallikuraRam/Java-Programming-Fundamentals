@@ -19,10 +19,19 @@ public class ComparatorExample {
 //        System.out.println(customerArrayList);
 
         // based int type
-//        Collections.sort(customerArrayList ,new CustomerIdComparator());
+        Collections.sort(customerArrayList, new CustomerIdComparator());
+        System.out.println("sorting based on id ");
+        for (Customer c : customerArrayList) {
+            System.out.println(c);
+        }
 
         // based on String type
-//        Collections.sort(customerArrayList , new CustomerNameComparator());
+        Collections.sort(customerArrayList, new CustomerNameComparator());
+        System.out.println("sorting based on name ");
+        for (Customer c : customerArrayList) {
+            System.out.println(c);
+        }
+
 
         // anonymous implementation ascending order
         Collections.sort(customerArrayList, new Comparator<Customer>() {
@@ -32,12 +41,12 @@ public class ComparatorExample {
             }
         });
 
-        System.out.println("ascending order");
+        System.out.println("ascending order based on id ");
         for (Customer c : customerArrayList) {
             System.out.println(c);
         }
-
-        // anonymous implementation descending order
+//
+//        // anonymous implementation descending order
         Collections.sort(customerArrayList, new Comparator<Customer>() {
             @Override
             public int compare(Customer o1, Customer o2) {
@@ -50,7 +59,7 @@ public class ComparatorExample {
                 }
             }
         });
-        System.out.println("descending order");
+        System.out.println("descending order based on id ");
         for (Customer c : customerArrayList) {
             System.out.println(c);
         }

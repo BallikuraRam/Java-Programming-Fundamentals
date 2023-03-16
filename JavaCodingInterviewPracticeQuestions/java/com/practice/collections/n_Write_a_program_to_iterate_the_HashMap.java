@@ -18,7 +18,7 @@ public class n_Write_a_program_to_iterate_the_HashMap {
         hashMap.put("Ram", "Sowji");
         hashMap.put("Naveen", "Vamsi");
 
-        System.out.println("Iterating or looping map using keySet Iterator");
+        System.out.println("Iterating or looping map using keySet IteratorImplementation");
         Set<String> keySet = hashMap.keySet();
         Iterator iterator = keySet.iterator();
 
@@ -63,7 +63,7 @@ public class n_Write_a_program_to_iterate_the_HashMap {
         }
     }
 
-    //In this example we have used combination of Iterator and entrySet()
+    //In this example we have used combination of IteratorImplementation and entrySet()
     // to show all keys and values of a Java Map.
     public static void iterate_or_Loop_HashMap_in_Java_Using_entrySet_and_java_iterator() {
         System.out.println("4. Iterate or Loop HashMap in Java Using entrySet() and java iterator");

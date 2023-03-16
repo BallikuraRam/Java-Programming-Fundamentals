@@ -17,7 +17,7 @@ public class d_HashSet_IteratorExample {
         // Get iterator
         Iterator iterator = hashSet.iterator();
         // Show HashSet elements
-        System.out.println("1. Program for How to Iterate HashSet  Using Iterator");
+        System.out.println("1. Program for How to Iterate HashSet  Using IteratorImplementation");
         while (iterator.hasNext()) {
             System.out.print(iterator.next()+" ");
         }
