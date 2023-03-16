@@ -31,7 +31,7 @@ public class HashSetExample {
         // print the hashSet
         System.out.println(studentHashSet);
 
-        // print the Traverse Using Iterator interface
+        // print the Traverse Using IteratorImplementation interface
         Iterator iterator = studentHashSet.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());

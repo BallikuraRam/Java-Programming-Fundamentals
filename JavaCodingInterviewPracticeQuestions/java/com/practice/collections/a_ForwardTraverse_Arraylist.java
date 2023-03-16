@@ -34,8 +34,8 @@ public class a_ForwardTraverse_Arraylist {
             c++;
         }
 
-        //4. Iterate ArrayList using Iterator
-        System.out.println("4. Iterate ArrayList using Iterator");
+        //4. Iterate ArrayList using IteratorImplementation
+        System.out.println("4. Iterate ArrayList using IteratorImplementation");
         Iterator iterator = arrayList.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
